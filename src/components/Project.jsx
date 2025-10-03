@@ -11,7 +11,9 @@ const Project = () => {
     
                   <div className=" bg-white  rounded-lg shadow-sm dark:bg-gray-800  backdrop-blur-xl  ring-1 ring-white/20 transition-all duration-300 hover:backdrop-blur-2xl hover:shadow-[0_8px_32px_0_rgba(31,38,135,0.37)] hover:scale-105 hover:border-white/50" >
                     <a href="#">
-                      <img className="rounded-t-lg" src={site} alt="Foto de Jocely Marques" />
+                      <div className="h-48 overflow-hidden rounded-t-lg">
+                        <img className="w-full h-full object-cover" src={site} alt="Foto de Jocely Marques" />
+                      </div>
                     </a>
                     <div className="flex flex-col p-5 gap-5">
                       <a href="#">
@@ -47,7 +49,9 @@ const Project = () => {
     
                   <div className=" bg-white  rounded-lg shadow-sm dark:bg-gray-800  backdrop-blur-xl  ring-1 ring-white/20 transition-all duration-300 hover:backdrop-blur-2xl hover:shadow-[0_8px_32px_0_rgba(31,38,135,0.37)] hover:scale-105 hover:border-white/50" >
                     <a href="#">
-                      <img className="rounded-t-lg" src={site2} alt="Foto de Jocely Marques" />
+                      <div className="h-48 overflow-hidden rounded-t-lg">
+                        <img className="w-full h-full object-cover" src={site2} alt="Foto de Jocely Marques" />
+                      </div>
                     </a>
                     <div className="flex flex-col p-5 gap-5">
                       <a href="#">
@@ -84,7 +88,9 @@ const Project = () => {
     
                   <div className=" bg-white  rounded-lg shadow-sm dark:bg-gray-800  backdrop-blur-xl  ring-1 ring-white/20 transition-all duration-300 hover:backdrop-blur-2xl hover:shadow-[0_8px_32px_0_rgba(31,38,135,0.37)] hover:scale-105 hover:border-white/50" >
                     <a href="#">
-                      <img className="rounded-t-lg" src={site3} alt="Foto de Jocely Marques" />
+                      <div className="h-48 overflow-hidden rounded-t-lg">
+                        <img className="w-full h-full object-cover" src={site3} alt="Foto de Jocely Marques" />
+                      </div>
                     </a>
                     <div className="flex flex-col p-5 gap-5">
                       <a href="#">

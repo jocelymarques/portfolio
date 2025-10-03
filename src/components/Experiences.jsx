@@ -2,7 +2,7 @@ const Experiences = () => {
     return (
         <section id="sobre-mim" className="mt-20 mb-20">
             <h2 className="text-3xl font-semibold text-green-500 mb-10 text-center">Sobre Mim</h2>
-            <p className="sm:text-3xl text-gray-600 dark:text-gray-300 mb-20 max-w-4xl mx-auto text-justify ">
+            <p className="sm:text-3xl text-gray-700 dark:text-gray-500 mb-20 max-w-4xl mx-auto text-justify ">
                 Desenvolvedor Full-Stack com formação em Análise de Sistemas, especializado em aplicações web modernas e escaláveis. Experiência com React.js, Angular.js, PHP, Laravel e MySQL. Competência em Docker, integração de APIs, otimização de performance, Git e metodologias Ágeis (Scrum e Kanban). Focado em entregar soluções que agregam valor ao negócio.
             </p>
             <div className="flex flex-col md:flex-row gap-8 items-stretch justify-center">
