@@ -35,19 +35,19 @@ const About = () => {
                 </div>
                 <div className="flex flex-wrap gap-4 mt-6">
                   <a
-                    href="https://github.com/seu-usuario" target="_blank" rel="noopener noreferrer"
+                    href="https://github.com/jocelymarques" target="_blank" rel="noopener noreferrer"
                     className="inline-flex items-center px-6 py-2 text-sm font-medium text-white bg-gray-800 rounded-lg hover:bg-gray-900 transition"
                   >
                     GitHub
                   </a>
                   <a
-                    href="https://www.linkedin.com/in/seu-usuario" target="_blank" rel="noopener noreferrer"
+                    href="https://www.linkedin.com/in/jocelymarques" target="_blank" rel="noopener noreferrer"
                     className="inline-flex items-center px-6 py-2 text-sm font-medium text-white bg-blue-600 rounded-lg hover:bg-blue-700 transition"
                   >
                     LinkedIn
                   </a>
                   <a
-                    href="/CV-Jocely-Marques.pdf" download
+                    href="/portfolio/CV_BR_Francisco_Jocely_Dias_Marques_DEV_TI.pdf" download
                     className="inline-flex items-center px-6 py-2 text-sm font-medium text-white bg-green-600 rounded-lg hover:bg-green-700 transition"
                   >
                     Download CV
