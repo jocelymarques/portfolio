@@ -9,14 +9,12 @@ const Experiences = () => {
                 {/* Card Formação */}
                 <div className="bg-gradient-to-br from-green-100 via-white to-green-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 rounded-2xl shadow-2xl border-2 border-green-300 p-8 flex-1 max-w-sm flex flex-col items-center mb-6 md:mb-0 hover:scale-105 transition-transform">
                     <div className="flex items-center gap-2 mb-4">
-                        <svg className="w-7 h-7 text-green-400" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M12 14l9-5-9-5-9 5 9 5z" /><path strokeLinecap="round" strokeLinejoin="round" d="M12 14l6.16-3.422A12.083 12.083 0 0112 21.5a12.083 12.083 0 01-6.16-10.922L12 14z" /></svg>
                         <h3 className="text-xl font-bold text-green-500">Formação</h3>
                     </div>
                     <ul className="list-none text-gray-700 dark:text-gray-200 mb-4 w-full text-left">
                         <li className="mb-2"><span className="font-semibold text-green-600">Graduação:</span> Análise de Sistemas de Computação – UNOPAR</li>
                     </ul>
                     <div className="flex items-center gap-2 mb-4">
-                        <svg className="w-7 h-7 text-green-400" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M12 8v4l3 3" /><circle cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="2" fill="none" /></svg>
                         <h3 className="text-xl font-bold text-green-500">Certificados</h3>
                     </div>
                     <ul className="list-none text-gray-700 dark:text-gray-200 w-full text-left">

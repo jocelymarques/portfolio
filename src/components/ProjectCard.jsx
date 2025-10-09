@@ -4,21 +4,20 @@ import TechBadge from "./TechBadge";
 const ProjectCard = ({
   image,
   title,
+  description = "Descrição do projeto não disponível.",
   techs = [],
   previewUrl = "#",
   githubUrl = "#",
+  onClick,
 }) => {
   return (
     <div className="bg-white rounded-lg shadow-sm dark:bg-gray-800 backdrop-blur-xl ring-1 ring-white/20 transition-all duration-300 hover:backdrop-blur-2xl hover:shadow-[0_8px_32px_0_rgba(31,38,135,0.37)] hover:scale-105 hover:border-white/50">
-      <a href={previewUrl} target="_blank" rel="noopener noreferrer">
-        <div className="h-48 overflow-hidden rounded-t-lg">
-          <img className="w-full h-full object-cover" src={image} alt={title} />
-        </div>
-      </a>
+      <div className="h-48 overflow-hidden rounded-t-lg cursor-pointer" onClick={onClick}>
+        <img className="w-full object-cover" src={image} alt={title} />
+      </div>
       <div className="flex flex-col p-5 gap-5">
-        <a href={previewUrl} target="_blank" rel="noopener noreferrer">
-          <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{title}</h5>
-        </a>
+        <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{title}</h5>
+        <p className="mb-3 font-normal text-gray-100 dark:text-gray-400">{description}</p>
         <div className="flex flex-wrap gap-2 mb-5">
           {techs.map((tech, idx) => (
             <TechBadge key={idx} name={tech.name} />
