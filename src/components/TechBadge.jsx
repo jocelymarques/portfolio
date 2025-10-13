@@ -6,7 +6,7 @@ const colorMap = {
   Firebase: "bg-yellow-400/20",
   TypeScript: "bg-blue-400/20",
   TailwindCSS: "bg-green-400/20",
-  Laravel: "bg-orange-400/20",
+  Laravel: "bg-green-500/80/20",
   SQL: "bg-gray-400/20",
   HTML: "bg-yellow-400/20",
   CSS: "bg-blue-400/20",

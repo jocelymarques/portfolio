@@ -1,13 +1,25 @@
 @import "tailwindcss";
+@import "tailwindcss-animated";
+@plugin "daisyui";
 
-:root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-
-  /* color-scheme: light dark; */
-  /* color: rgba(255, 255, 255, 0.87); */
-  /* background-color: #242424; */
-
-
+@font-face {
+  font-family: 'ShareTech';
+  src: url('./assets/fonts/ShareTech-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
 
+:root {
+  font-family: 'ShareTech', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  /* color-scheme: light dark; */
+  /* color: rgba(255, 255, 255, 0.87); */
+  /* background-color: #242424; */
+}
+
+body {
+  font-family: 'ShareTech', sans-serif;
+  background-color: #101010;
+}

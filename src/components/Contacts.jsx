@@ -1,19 +1,19 @@
 import React, { useState } from 'react';
 
 const Contacts = () => {
-      const [nome, setNome] = useState('');
-      const [email, setEmail] = useState('');
-      const [mensagem, setMensagem] = useState('');
-    
-      const enviarWhatsApp = () => {
+    const [nome, setNome] = useState('');
+    const [email, setEmail] = useState('');
+    const [mensagem, setMensagem] = useState('');
+
+    const enviarWhatsApp = () => {
         const texto = `Olá, meu nome é ${nome}. Assunto: ${email}. Mensagem: ${mensagem}`;
         const url = `https://wa.me/5588993302318?text=${encodeURIComponent(texto)}`;
         window.open(url, '_blank');
-      };
+    };
 
     return (
         <section id="contatos" className="mt-20 mb-20">
-            <h2 className="text-3xl font-semibold text-green-500 mb-6 text-center">Contatos</h2>
+            <h2 className="text-3xl font-semibold text-green-500/80 mb-6 text-center">Contatos</h2>
             <div className="flex flex-col items-center gap-4">
                 <p className="text-lg text-gray-500 mb-2 text-center">Fique à vontade para entrar em contato comigo!</p>
                 <div className="w-full max-w-md mx-auto mb-6">
@@ -23,20 +23,20 @@ const Contacts = () => {
                             placeholder="Seu Nome"
                             value={nome}
                             onChange={(e) => setNome(e.target.value)}
-                            className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500"
+                            className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500/80"
                         />
                         <input
                             type="email"
                             placeholder="Seu Email"
                             value={email}
                             onChange={(e) => setEmail(e.target.value)}
-                            className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500"
+                            className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500/80"
                         />
                         <textarea
                             placeholder="Sua Mensagem"
                             value={mensagem}
                             onChange={(e) => setMensagem(e.target.value)}
-                            className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500 h-24"
+                            className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500/80 h-24"
                         ></textarea>
                         <button
                             type="button"
