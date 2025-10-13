@@ -6,8 +6,6 @@ import About from './components/About.jsx'
 import Experiences from './components/Experiences.jsx'
 import Contacts from './components/Contacts.jsx'
 import ProjectCard from './components/ProjectCard.jsx'
-import site from './assets/site.png'
-import site2 from './assets/site2.png'
 import site3 from './assets/site3.jpg'
 
 import { useState } from 'react'
@@ -22,7 +20,6 @@ import projeto1Img1 from './assets/projeto1/shopnet1.png';
 import projeto1Img2 from './assets/projeto1/shopnet2.png';
 import projeto1Img3 from './assets/projeto1/shopnet3.png';
 import projeto1Img4 from './assets/projeto1/shopnet4.png';
-import { Description } from '@headlessui/react'
 
 const projeto2Images = [projeto2Img1, projeto2Img2, projeto2Img3, projeto2Img4, projeto2Img5];
 const projeto1Images = [projeto1Img1, projeto1Img2, projeto1Img3, projeto1Img4];
@@ -124,8 +121,8 @@ function App() {
         <div className=' flex flex-col items-left min-h-screen p-4 '>
           <About />
 
-          <section id="projetos" className="mt-16 ">
-            <h2 className="text-3xl font-semibold text-green-500 mb-6 text-center">Projetos</h2>
+          <section id="projetos" className="mt-16 animate-fade-up animate-duration-[5000ms] animate-delay-100 animate-ease-in-out ">
+            <h2 className="text-3xl font-semibold text-green-500/80 mb-6 text-center">Projetos</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               {projects.map((project, idx) => (
                 <ProjectCard key={idx} {...project} onClick={() => openModal(project)} />

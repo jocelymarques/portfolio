@@ -17,9 +17,11 @@
     "@heroicons/react": "^2.2.0",
     "@tailwindcss/cli": "^4.1.13",
     "@tailwindcss/vite": "^4.1.14",
+    "daisyui": "^5.2.3",
     "flowbite": "^3.1.2",
     "react": "^19.1.1",
-    "react-dom": "^19.1.1"
+    "react-dom": "^19.1.1",
+    "tailwindcss-animated": "^2.0.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.36.0",
